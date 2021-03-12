@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="h-100">
+	<head>
+		<meta charset="UTF-8">
+		<title>Velhificador de Texto</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="img/favicon.ico" rel="icon" type="image/x-icon"/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>
+		<link href="css/cover.css" rel="stylesheet">
+	</head>
+	<body class="d-flex h-100 text-center text-white bg-dark">
+		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+			<header class="mb-auto">
+				<div>
+					<h3 class="float-md-start mb-0"></h3>
+				</div>
+			</header>
+			<main class="px-3">
+				<h1><img class="img-fluid" src="img/velhificador_menor.png"></h1>
+				<p class="lead">Use o velhificador de texto e tenha em mãos uma versão do seu texto escrita <span id="nome_idoso">pelo nome_idoso</span> no Facebook.</p>
+				<p class="lead"><textarea class="form-control" id="texto" style="height:300px;"></textarea></p>
+				<p class="lead">
+					<button class="btn btn-lg btn-secondary fw-bold border-white bg-white" onclick="velhificar()">Velhificar!</button>
+				</p>
+			</main>
+			<footer class="mt-auto text-white-50">
+				<p>Criado por <a href="https://github.com/Bonavigo" class="text-white">Bruno Bonavigo</a> usando o template "Cover" do <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, feito por <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+			</footer>
+		</div>
+	</body>
+</html>
