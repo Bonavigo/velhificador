@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="h-100">
 	<head>
 		<meta charset="UTF-8">
@@ -35,6 +35,9 @@
 				<h1><img class="img-fluid" src="img/velhificador_menor.png"></h1>
 				<p class="lead">Use o velhificador de texto e tenha em mãos uma versão do seu texto escrita <span id="nome_idoso">pelo nome_idoso</span> no Facebook.</p>
 				<p class="lead"><textarea class="form-control" id="texto" style="height:300px;"></textarea></p>
+				<div class="alert alert-light alert-dismissible fade show" role="alert" style="display:none;" id="parametros">
+					<span style="text-shadow:none;" id="txt_parametros"></span>
+				</div>
 				<p class="lead">
 					<button class="btn btn-lg btn-secondary fw-bold border-white bg-white" onclick="velhificar()">Velhificar!</button>
 				</p>
