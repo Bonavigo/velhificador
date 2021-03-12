@@ -7,7 +7,7 @@ function gera_caracteristicas() {
 	}
 	const veio_fininho = Math.random() >= 0.5;
 	const veio_dos_emoji = Math.random() >= 0.5;
-	const veio_dos_ponto = Math.random() >= 0.5;
+	const veio_dos_ponto = true;
 	var veio = {veio_fininho:veio_fininho, veio_berrao:veio_berrao, veio_dos_emoji:veio_dos_emoji, veio_dos_ponto:veio_dos_ponto};
 	return veio;
 }
