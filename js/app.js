@@ -12,7 +12,7 @@ function gera_caracteristicas() {
 	return veio;
 }
 document.addEventListener('DOMContentLoaded', function() {
-	var velhos = ["pelo Seu Zé", "pelo Manoel", "pelo Edivaldo", "pelo Geraldo", "pelo Evaristo", "pelo Arnaldo Messias", "pela Tereza", "pelo João Costa", "pela Dircea", "pelo Ezequiel", "pelo Emanoel", "pelo Edivaldo", "pela Alzira", "pela Aparecida", "pela Fátima", "pela Adelaide", "pelo Casemiro", "pelo Jair", "pelo Aristênio", "pelo Balbino", "pelo Baltazar", "pelo Astolfo", "pelo Rodolfo", "pelo Adolfo"];
+	var velhos = ["pelo Seu Zé", "pelo Manoel", "pelo Edivaldo", "pelo Geraldo", "pelo Evaristo", "pelo Arnaldo Messias", "pela Tereza", "pelo João Costa", "pela Dircea", "pelo Ezequiel", "pelo Emanoel", "pelo Edivaldo", "pela Alzira", "pela Aparecida", "pela Fátima", "pela Adelaide", "pelo Casemiro", "pelo Jair", "pelo Aristênio", "pelo Balbino", "pelo Baltazar", "pelo Astolfo", "pelo Rodolfo", "pelo Adolfo", "pela Cleide", "pela Marlene", "pela Veranice", "pelo Cleber", "pela Mariângela", "pela Josefa", "pelo Raimundo", "pela Terezinha", "pelo Márcio"];
 	var velho = velhos[Math.floor( Math.random() * velhos.length )];
 	document.getElementById("nome_idoso").innerHTML = velho;
 });
