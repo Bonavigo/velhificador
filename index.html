@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Velhificador de Texto</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://bonavigo.net/velhificador/" rel="canonical"/>
+		<meta name="theme-color" content="#0E1011">
+		<meta name="keywords" content="idoso, senhor, velhinho, texto, velhos no facebook, gerador de texto de idoso">
+		<meta content="@BrunoBonavigo" name="twitter:site"/>
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@BrunoBonavigo">
+		<meta name="twitter:creator" content="@BrunoBonavigo">
+		<meta property="og:site_name" content="Velhificador de Texto">
+		<meta property="og:locale" content="pt_BR"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Velhificador de Texto"/>
+		<meta property="og:description" content="Conversor de texto comum para texto de idosos no Facebook."/>
+		<meta property="og:url" content="https://bonavigo.net/velhificador/"/>
+		<meta property="og:image" content="assets/img/velhificador.png"/>
+		<link rel="shortcut icon" href="assets/img/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/idoso.css">
+	</head>
+	<body>
+		<header>
+			Velhificador de Texto - Por Bruno Bonavigo
+		</header>
+		<main>
+			<section class="box-infos bg-blue-sapphire">
+				<h1>Velhificador de Texto</h1>
+				<p>Use o velhificador de texto e tenha em mãos uma versão do seu texto escrita <span id="js_idoso">pelo x</span> no <span id="js_rede_social">Facebook</span>.</p>
+			</section>
+			<section class="box-infos bg-dark-blue">
+				<h1>Velhifique seu texto!</h1>
+				<textarea name="velhificador" id="velhificador" spellcheck="false"></textarea>
+				<div class="checkbox_container">
+					<input type="checkbox" id="veio_aleatorio" checked="checked">
+					<label for="veio_aleatorio">Velho aleatório</label>
+				</div>
+				<div class="custom_veio" style="display: none;" data-custom="false">
+					<div class="checkbox_container">
+						<input type="checkbox" id="veio_dos_ponto">
+						<label for="veio_dos_ponto">Idoso dos Pontos</label>
+					</div>
+					<div class="checkbox_container">
+						<input name="caps_ou_nao" type="radio" id="veio_berrao">
+						<label for="veio_berrao">Idoso do CAPS</label>
+					</div>
+					<div class="checkbox_container">
+						<input name="caps_ou_nao" type="radio" id="veio_fininho">
+						<label for="veio_fininho">Idoso sem CAPS</label>
+					</div>
+					<div class="checkbox_container">
+						<input type="checkbox" id="veio_dos_emoji">
+						<label for="veio_dos_emoji">Idoso dos Emoji</label>
+					</div>
+				</div>
+				<button type="button" data-velhificar="true">Velhificar</button>
+			</section>
+			<section class="box-infos bg-light-blue">
+				<h1>Parâmetros</h1>
+				<p class="param">Use o velhificador primeiro para poder ver os parâmetros do idoso gerado!</p>
+			</section>
+		</main>
+		<footer class="box-infos bg-prussian-blue">
+			Feito por Bruno Bonavigo em 2021. Se você é um idoso, não se ofenda, seu jeito de digitar é engraçado.<br> Meu <a href="https://github.com/Bonavigo" target="_blank">Github</a> e meu <a href="https://twitter.com/BrunoBonavigo" target="_blank">Twitter</a>.
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+		<script src="assets/js/autosize.js"></script>
+		<script src="assets/js/velhificador.js"></script>
+	</body>
+</html>
