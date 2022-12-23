@@ -1,0 +1,40 @@
+/* (Re)feito por Bruno Bonavigo em dezembro de 2022. */
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+	height: 32px;
+	width: 32px;
+}
+
+.icon-nav {
+	margin-right: -3px;
+}
+
+.bg-dark-blue {
+	background-color: #003f91 !important;
+	color: #FFF;
+}
+
+.repos-container {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.frase-container {
+	margin: 0;
+}
+
+.bs-icon-footer {
+	margin-left: 1rem;
+}
+
+.bs-icon-footer a .bi {
+	font-size: 1.5rem;
+}
+
+.icon-aviso {
+	margin-right: 5px;
+}
