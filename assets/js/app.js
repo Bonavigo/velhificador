@@ -11,7 +11,7 @@ const VELHIFICADOR = {
 		Waves.init();
 	},
 	geradorNomeIdoso() {
-		velhos = ["pelo Seu Zé", "pelo Manoel", "pelo Edivaldo", "pelo Geraldo", "pelo Evaristo", "pelo Arnaldo", "pela Tereza", "pela Dircea", "pelo Ezequiel", "pelo Emanoel", "pelo Edivaldo", "pela Alzira", "pela Aparecida", "pela Fátima", "pela Adelaide", "pelo Casemiro", "pelo Jair", "pelo Aristênio", "pelo Balbino", "pelo Baltazar", "pelo Astolfo", "pelo Rodolfo", "pelo Adolfo", "pela Cleide", "pela Marlene", "pela Veranice", "pelo Cleber", "pela Mariângela", "pelo Raimundo", "pela Terezinha", "pelo Márcio", "pela Lourdes"];
+		velhos = ["pelo Seu Zé", "pelo Arnesto", "pelo Edivaldo", "pelo Geraldo", "pelo Evaristo", "pelo Ernesto", "pela Iracema", "pelo Oscar", "pelo Osmar"];
 		velho = velhos[Math.floor( Math.random() * velhos.length )];
 		document.querySelector("#nome_idoso").innerText = velho;
 	},
